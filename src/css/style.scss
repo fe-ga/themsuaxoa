@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.header {
+
+  z-index: 99999;
+  background: #c4c4c4 !important;
+  height: 59px;
+  position: sticky !important;
+  top: 0;
+  .logo {
+    img {
+      height: 80%;
+    }
+  }
+  p{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: red;
+  }
+}
+.wrapper {
+  max-width: 15%;
+  height: 100%;
+  background: #c4c4c4;
+  ul {
+    padding: 0;
+    li {
+      border: 1px solid #4d4d4d;
+      a {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.sidebar {
+  margin-top: 63px;
+}
+.content {
+  z-index: 9999;
+  color: red;
+  ul,
+  li,
+  ul {
+    text-decoration: none !important;
+  }
+}
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+      max-width: 1140px !;
+      margin-left: 6% !important;
+    }
+  }
+  
+.ct-content {
+    position: relative;
+    .btn-home{
+        button:nth-child(2){
+            position: absolute;
+            right: 5%;
+        }
+        button:nth-child(1){
+            position: absolute;
+            left: 5%;
+        }
+    }
+  .ct-input {
+    width: 50%;
+  }
+  padding-top: 50px !important;
+  .noteError {
+    td {
+      position: absolute;
+      right: 5%;
+      padding-top: 30px;
+      color: red;
+    }
+    border-top: white;
+    th {
+      padding-bottom: 35px;
+    }
+    th,
+    td {
+      border-style: none !important;
+    }
+  }
+  .inputFile {
+    border-radius: 5px !important;
+  }
+  .btn-edit {
+    padding: 150px 0px 50px 0px;
+    button {
+      font-family: Noto Sans KR;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: -0.32px;
+      color: #000000;
+      padding: 7px 45px;
+    }
+    button:nth-child(1) {
+      margin-right: 10px;
+      background: #ffffff;
+      border: 1px solid #414141;
+      border-radius: 10px;
+    }
+    button:nth-child(2) {
+      background: #414141;
+      border: 1px solid #414141;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+  }
+  .error{
+      color: red;
+  }
+}
